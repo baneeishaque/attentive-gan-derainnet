@@ -2,6 +2,19 @@
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Baneeishaque/attentive-gan-derainnet) [![DeepSource](https://deepsource.io/gh/Baneeishaque/attentive-gan-derainnet.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/Baneeishaque/attentive-gan-derainnet/?ref=repository-badge) [![DeepSource](https://deepsource.io/gh/Baneeishaque/attentive-gan-derainnet.svg/?label=resolved+issues&show_trend=true)](https://deepsource.io/gh/Baneeishaque/attentive-gan-derainnet/?ref=repository-badge)
 
+<!-- Technology Badges -->
+![TensorFlow](https://img.shields.io/badge/TensorFlow-1.15-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.5+-3776AB?style=flat&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-Image_Processing-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-GPU_Accelerated-76B900?style=flat&logo=nvidia&logoColor=white)
+
+<!-- Topic Badges -->
+![Deep Learning](https://img.shields.io/badge/Deep_Learning-Neural_Network-blue)
+![GAN](https://img.shields.io/badge/GAN-Generative_Adversarial_Network-green)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-Image_Processing-orange)
+![CVPR 2018](https://img.shields.io/badge/Paper-CVPR_2018-red)
+![Image Derain](https://img.shields.io/badge/Task-Image_Deraining-purple)
+
 Use tensorflow to implement a Deep Convolution Generative Adversarial Network for image derain task mainly based on the
 CVPR2018 paper "Attentive Generative Adversarial Network for Raindrop Removal from A Single Image".You can refer to
 their paper for details https://arxiv.org/abs/1711.10098. This model consists of a attentive attentive-recurrent
@@ -199,3 +212,11 @@ much more valid attention information than the old model.
 - [x] Parameter adjustment
 - [x] Test different loss function design
 - [ ] Add tensorflow service
+
+## Keywords / Topics
+
+This repository covers the following topics for discoverability:
+
+`deep-learning` `machine-learning` `computer-vision` `tensorflow` `python` `gan` `image-processing` `image-restoration` `derain` `rain-removal` `raindrop-removal` `attention-mechanism` `lstm` `convolutional-neural-networks` `autoencoder` `cvpr2018` `paper-implementation` `opencv` `generative-adversarial-network`
+
+For detailed instructions on how to add these topics to your GitHub repository, see [GITHUB_TOPICS.md](./GITHUB_TOPICS.md).
