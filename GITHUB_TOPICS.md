@@ -24,7 +24,6 @@ Based on the analysis of this repository, the following topics are recommended:
 | `derain` | Specific task of removing rain from images |
 | `rain-removal` | Alternative description of the task |
 | `raindrop-removal` | Specific focus on raindrop removal |
-| `image-deraining` | Image deraining task |
 
 ### Architecture Topics
 | Topic | Reason |
@@ -33,7 +32,6 @@ Based on the analysis of this repository, the following topics are recommended:
 | `lstm` | Uses ConvLSTM for attention generation |
 | `convolutional-neural-networks` | CNN-based architecture |
 | `autoencoder` | Contains contextual autoencoder component |
-| `vgg16` | Uses VGG16 for perceptual loss |
 
 ### Research Topics
 | Topic | Reason |
@@ -45,10 +43,16 @@ Based on the analysis of this repository, the following topics are recommended:
 | Topic | Reason |
 |-------|--------|
 | `opencv` | Uses OpenCV for image I/O |
+| `generative-adversarial-network` | Full GAN terminology |
+
+### Optional Topics (Not included in default list to stay under 20 limit)
+| Topic | Reason |
+|-------|--------|
+| `image-deraining` | Alternative term for deraining task |
+| `vgg16` | Uses VGG16 for perceptual loss |
 | `numpy` | Uses NumPy for computations |
 | `cuda` | GPU acceleration support |
 | `deep-neural-networks` | DNN-based approach |
-| `generative-adversarial-network` | Full GAN terminology |
 
 ## Complete List of Suggested Topics
 
