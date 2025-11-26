@@ -1,0 +1,58 @@
+# Workflow to update repository topics
+# Run this workflow manually to set all recommended topics for the repository
+# This can be triggered from Actions tab -> "Update Repository Topics" -> "Run workflow"
+
+name: Update Repository Topics
+
+on:
+  workflow_dispatch:  # Manual trigger only
+
+jobs:
+  update-topics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      metadata: write
+    
+    steps:
+      - name: Update repository topics
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const topics = [
+              'deep-learning',
+              'machine-learning',
+              'computer-vision',
+              'tensorflow',
+              'python',
+              'gan',
+              'image-processing',
+              'image-restoration',
+              'derain',
+              'rain-removal',
+              'raindrop-removal',
+              'attention-mechanism',
+              'lstm',
+              'convolutional-neural-networks',
+              'autoencoder',
+              'cvpr2018',
+              'paper-implementation',
+              'opencv',
+              'generative-adversarial-network'
+            ];
+            
+            console.log('Setting repository topics:', topics);
+            
+            try {
+              const response = await github.rest.repos.replaceAllTopics({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                names: topics
+              });
+              console.log('Topics updated successfully!');
+              console.log('New topics:', response.data.names);
+            } catch (error) {
+              console.error('Failed to update topics:', error.message);
+              core.setFailed(error.message);
+            }
