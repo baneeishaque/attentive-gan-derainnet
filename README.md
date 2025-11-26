@@ -217,6 +217,12 @@ much more valid attention information than the old model.
 
 This repository covers the following topics for discoverability:
 
-`deep-learning` `machine-learning` `computer-vision` `tensorflow` `python` `gan` `image-processing` `image-restoration` `derain` `rain-removal` `raindrop-removal` `attention-mechanism` `lstm` `convolutional-neural-networks` `autoencoder` `cvpr2018` `paper-implementation` `opencv` `generative-adversarial-network`
+| Category | Topics |
+|----------|--------|
+| **Core** | `deep-learning` `machine-learning` `computer-vision` `tensorflow` `python` `gan` `image-processing` |
+| **Task** | `image-restoration` `derain` `rain-removal` `raindrop-removal` |
+| **Architecture** | `attention-mechanism` `lstm` `convolutional-neural-networks` `autoencoder` |
+| **Research** | `cvpr2018` `paper-implementation` |
+| **Tools** | `opencv` `generative-adversarial-network` |
 
 For detailed instructions on how to add these topics to your GitHub repository, see [GITHUB_TOPICS.md](./GITHUB_TOPICS.md).
